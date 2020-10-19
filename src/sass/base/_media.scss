@@ -1,0 +1,89 @@
+@media (max-width: 1200px) {
+	
+}
+
+@media (max-width: 991px) {
+	.container {
+		margin: 0px 35px;
+	}
+	.advantages {
+		&__item {
+			max-width: 200px;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.header {
+		&__phone {
+			font-size: 17px;
+		}
+		&__official {
+			display: none;
+		}
+	}
+	.advantages {
+		&__wrapper {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin: 0 auto;
+		}
+		&__item {
+			max-width: 300px;
+			margin-top: 30px;
+		}
+		&__subtitle {
+			margin-top: 5px;
+		}
+		&__descr {
+			margin-top: 10px;
+		}
+	}
+}
+
+@media (max-width: 575px) {
+	.header {
+		display: block;
+		&__contacts {
+			margin-top: 10px;
+		}
+		&__phone {
+			font-size: 15px;
+		}
+		button {
+			width: 100%;
+		}
+	}
+	.promo {
+		padding-bottom: 50px;
+		&__wrapper {
+			margin-top: 40px;
+		}
+		&__title {
+			font-size: 32px;
+		}
+		&__subtitle {
+			font-size: 17px;
+		}
+		&__icons {
+			display: block;
+			width: 100%;
+			height: 100%;
+			margin-top: 20px;
+			img {
+				display: inline-block;
+			}
+		}
+		&__icon {
+			width: 100%;
+			text-align: left;
+		}
+		.button {
+			&-main {
+				width: 100%;
+				margin-top: 30px;
+			}
+		}
+	}
+}
