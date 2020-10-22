@@ -86,4 +86,18 @@
 			}
 		}
 	}
+	.consultation {
+		padding: 60px 0px 60px;
+		&__descr {
+			margin-top: 45px;
+		}
+	}
+	.title {
+		&-left {
+			font-size: 30px;
+		}
+	}
+	.feed-form {
+		width: 250px;
+	}
 }
