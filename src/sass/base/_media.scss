@@ -11,6 +11,32 @@
 			max-width: 200px;
 		}
 	}
+	.carousel {
+		.slick-dots {
+			display: flex;
+			justify-content: center;
+			padding: 0px;
+			li {
+				list-style: none;
+				margin-right: 5px;
+				margin-left: 5px;
+				button {
+					width: 25px;
+					height: 25px;
+					border-radius: 100%;
+					background-color: #fff;
+					border: none;
+					transition: 0.5s all;
+				}
+			}
+			.slick-active {
+				button {
+					background-color: $main-color;
+					color: #fff;
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 767px) {
@@ -38,6 +64,11 @@
 		}
 		&__descr {
 			margin-top: 10px;
+		}
+	}
+	.carousel {
+		&__inner {
+			width: 505px;
 		}
 	}
 }
@@ -93,11 +124,33 @@
 		}
 	}
 	.title {
-		&-left {
+		&_left {
 			font-size: 30px;
 		}
 	}
 	.feed-form {
 		width: 250px;
+	}
+	.carousel {
+		padding: 50px 0px;
+		&__inner {
+			width: 250px;
+		}
+	}
+	.catalog {
+		padding-bottom: 40px;
+		&__tabs {
+			flex-direction: column;
+			margin-top: 40px !important;
+			li {
+				margin-bottom: 30px;
+			}
+		}
+		&__tab {
+			margin-bottom: 30px;
+		}
+		&__content {
+			margin-top: 40px !important;
+		}
 	}
 }
