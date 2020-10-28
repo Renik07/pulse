@@ -1,0 +1,38 @@
+.feed {
+	padding-bottom: 70px;
+	&__item {
+		min-height: 275px;
+		margin-top: 60px;
+		display: flex;
+		&:nth-child(1),
+		&:nth-child(2) {
+			border-bottom: 1px solid rgb(246, 246, 246);
+		}
+	}
+	&__img {
+		max-width: 169px;
+		max-height: 169px;
+		width: 100%;
+		margin-right: 65px;
+	}
+	&__text {
+		max-width: 665px;
+	}
+	&__name {
+		font-size: 18px;
+		font-weight: 700;
+		color: rgb(13, 13, 13);
+		text-align: left;
+	}
+	&__subtitle {
+		margin-top: 5px;
+		margin-bottom: 15px;
+		font-size: 14px;
+		color: rgb(100, 100, 100);
+	}
+	&__descr {
+		font-size: 16px;
+		color: rgb(13, 13, 13);
+		line-height: 1.2;
+	}
+}
