@@ -48,8 +48,34 @@ $(document).ready(function(){
 			$('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
 		});
 	});
-	$('.button_submit').on('click', function() {
+	/* $('.button_submit').on('click', function() {
 		$('#order').fadeOut();
 		$('#thanks').fadeIn();
-	});
+	}); */
+
+	/* form validation */
+	function validateForms(form) {
+		$(form).validate({
+			rules: {
+				name: 'required',
+				phone: 'required',
+				email: {
+					required: true,
+					email: true
+				}
+			},
+			messages: {
+				name: 'Введите имя',
+				phone: 'Введите номер телефона',
+				email: {
+					required: 'Введите свой почтовый адрес',
+					email: 'Ваша почта должна быть формата name@domain.ru'
+				}
+			}
+		});
+	}
+
+	validateForms('#consultation-form');
+	validateForms('#consultation form');
+	validateForms('#order form');
 });

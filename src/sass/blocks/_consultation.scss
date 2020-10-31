@@ -9,4 +9,13 @@
 		color: rgb(255, 255, 255);
 		margin-top: 75px;
 	}
+	input.error {
+		border: 2px solid $main-color;
+		margin-bottom: 0px !important;
+	}
+	label.error {
+		color: #fff;
+		margin-bottom: 15px;
+		font-size: 14px;
+	}
 }
