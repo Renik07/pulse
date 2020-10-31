@@ -1,0 +1,16 @@
+.pageup {
+	display: none;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	width: 60px;
+	height: 60px;
+	transition: 1s all;
+	&:hover {
+		transform: scale(1.15);
+	}
+	
+	img {
+		width: 100%;
+	}
+}
