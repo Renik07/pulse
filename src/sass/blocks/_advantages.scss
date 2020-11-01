@@ -27,4 +27,19 @@
 			color: red;
 		}
 	}
+	&__icon {
+		&_heart {
+			animation: heartbeat 3.5s ease-out infinite;
+		}
+	}
+	&__icon {
+		&_cup {
+			animation: cup 2s infinite;
+		}
+	}
+	&__icon {
+		&_shoe {
+			animation: shoe 2s infinite;
+		}
+	}
 }
