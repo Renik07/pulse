@@ -12,6 +12,9 @@
 		}
 	}
 	.carousel {
+		&__inner {
+			width: 698px;
+		}
 		.slick-dots {
 			display: flex;
 			justify-content: center;
@@ -128,6 +131,15 @@
 			font-size: 30px;
 		}
 	}
+	.feed {
+		&__item {
+			flex-direction: column;
+		}
+		&__img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
 	.feed-form {
 		width: 250px;
 	}
@@ -151,6 +163,28 @@
 		}
 		&__content {
 			margin-top: 40px !important;
+		}
+	}
+	.footer {
+		height: 400px;
+		&__info {
+			width: 320px;
+			height: 200px;
+			padding: 30px;
+		}
+		&__address {
+			font-size: 19px;
+			margin-bottom: 20px;
+		}
+		&__phone {
+			font-size: 19px;
+			margin-bottom: 20px;
+		}
+		&__social {
+			&-item {
+				width: 40px;
+				height: 40px;
+			}
 		}
 	}
 }
