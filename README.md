@@ -1,4 +1,4 @@
-# pulse
+# RunSmart
 
 Сайт сверстан с технологиями Gulp, SCSS, Bootstrap, JS(Jquery, Slick, Maskedinput, WOW), с валидацией форм и адаптивностью под различные устройства
 
